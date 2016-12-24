@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>streamingIPCamTV.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>streamingIPCamera.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>62D17E9E1E0EB98F006C10AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62D17EB21E0EB98F006C10AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62D17EBD1E0EB98F006C10AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62D17EE61E0EBA8B006C10AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62D17EF61E0EBA8B006C10AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>62D17F011E0EBA8C006C10AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
