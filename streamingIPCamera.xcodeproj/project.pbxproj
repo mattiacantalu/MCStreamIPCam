@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62D17EA31E0EB98F006C10AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D17EA21E0EB98F006C10AB /* AppDelegate.swift */; };
+		62D17EA51E0EB98F006C10AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D17EA41E0EB98F006C10AB /* ViewController.swift */; };
+		62D17EA81E0EB98F006C10AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D17EA61E0EB98F006C10AB /* Main.storyboard */; };
+		62D17EAA1E0EB98F006C10AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D17EA91E0EB98F006C10AB /* Assets.xcassets */; };
+		62D17EAD1E0EB98F006C10AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D17EAB1E0EB98F006C10AB /* LaunchScreen.storyboard */; };
+		62D17EB81E0EB98F006C10AB /* streamingIPCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D17EB71E0EB98F006C10AB /* streamingIPCameraTests.swift */; };
+		62D17EC31E0EB98F006C10AB /* streamingIPCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D17EC21E0EB98F006C10AB /* streamingIPCameraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62D17EB41E0EB98F006C10AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62D17E971E0EB98F006C10AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62D17E9E1E0EB98F006C10AB;
+			remoteInfo = streamingIPCamera;
+		};
+		62D17EBF1E0EB98F006C10AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62D17E971E0EB98F006C10AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62D17E9E1E0EB98F006C10AB;
+			remoteInfo = streamingIPCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62D17E9F1E0EB98F006C10AB /* streamingIPCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = streamingIPCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D17EA21E0EB98F006C10AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62D17EA41E0EB98F006C10AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62D17EA71E0EB98F006C10AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62D17EA91E0EB98F006C10AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62D17EAC1E0EB98F006C10AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62D17EAE1E0EB98F006C10AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62D17EB31E0EB98F006C10AB /* streamingIPCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = streamingIPCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D17EB71E0EB98F006C10AB /* streamingIPCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = streamingIPCameraTests.swift; sourceTree = "<group>"; };
+		62D17EB91E0EB98F006C10AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62D17EBE1E0EB98F006C10AB /* streamingIPCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = streamingIPCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D17EC21E0EB98F006C10AB /* streamingIPCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = streamingIPCameraUITests.swift; sourceTree = "<group>"; };
+		62D17EC41E0EB98F006C10AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62D17E9C1E0EB98F006C10AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D17EB01E0EB98F006C10AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D17EBB1E0EB98F006C10AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62D17E961E0EB98F006C10AB = {
+			isa = PBXGroup;
+			children = (
+				62D17EA11E0EB98F006C10AB /* streamingIPCamera */,
+				62D17EB61E0EB98F006C10AB /* streamingIPCameraTests */,
+				62D17EC11E0EB98F006C10AB /* streamingIPCameraUITests */,
+				62D17EA01E0EB98F006C10AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62D17EA01E0EB98F006C10AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62D17E9F1E0EB98F006C10AB /* streamingIPCamera.app */,
+				62D17EB31E0EB98F006C10AB /* streamingIPCameraTests.xctest */,
+				62D17EBE1E0EB98F006C10AB /* streamingIPCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62D17EA11E0EB98F006C10AB /* streamingIPCamera */ = {
+			isa = PBXGroup;
+			children = (
+				62D17EA21E0EB98F006C10AB /* AppDelegate.swift */,
+				62D17EA41E0EB98F006C10AB /* ViewController.swift */,
+				62D17EA61E0EB98F006C10AB /* Main.storyboard */,
+				62D17EA91E0EB98F006C10AB /* Assets.xcassets */,
+				62D17EAB1E0EB98F006C10AB /* LaunchScreen.storyboard */,
+				62D17EAE1E0EB98F006C10AB /* Info.plist */,
+			);
+			path = streamingIPCamera;
+			sourceTree = "<group>";
+		};
+		62D17EB61E0EB98F006C10AB /* streamingIPCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				62D17EB71E0EB98F006C10AB /* streamingIPCameraTests.swift */,
+				62D17EB91E0EB98F006C10AB /* Info.plist */,
+			);
+			path = streamingIPCameraTests;
+			sourceTree = "<group>";
+		};
+		62D17EC11E0EB98F006C10AB /* streamingIPCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62D17EC21E0EB98F006C10AB /* streamingIPCameraUITests.swift */,
+				62D17EC41E0EB98F006C10AB /* Info.plist */,
+			);
+			path = streamingIPCameraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62D17E9E1E0EB98F006C10AB /* streamingIPCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D17EC71E0EB98F006C10AB /* Build configuration list for PBXNativeTarget "streamingIPCamera" */;
+			buildPhases = (
+				62D17E9B1E0EB98F006C10AB /* Sources */,
+				62D17E9C1E0EB98F006C10AB /* Frameworks */,
+				62D17E9D1E0EB98F006C10AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = streamingIPCamera;
+			productName = streamingIPCamera;
+			productReference = 62D17E9F1E0EB98F006C10AB /* streamingIPCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62D17EB21E0EB98F006C10AB /* streamingIPCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D17ECA1E0EB98F006C10AB /* Build configuration list for PBXNativeTarget "streamingIPCameraTests" */;
+			buildPhases = (
+				62D17EAF1E0EB98F006C10AB /* Sources */,
+				62D17EB01E0EB98F006C10AB /* Frameworks */,
+				62D17EB11E0EB98F006C10AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62D17EB51E0EB98F006C10AB /* PBXTargetDependency */,
+			);
+			name = streamingIPCameraTests;
+			productName = streamingIPCameraTests;
+			productReference = 62D17EB31E0EB98F006C10AB /* streamingIPCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62D17EBD1E0EB98F006C10AB /* streamingIPCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D17ECD1E0EB98F006C10AB /* Build configuration list for PBXNativeTarget "streamingIPCameraUITests" */;
+			buildPhases = (
+				62D17EBA1E0EB98F006C10AB /* Sources */,
+				62D17EBB1E0EB98F006C10AB /* Frameworks */,
+				62D17EBC1E0EB98F006C10AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62D17EC01E0EB98F006C10AB /* PBXTargetDependency */,
+			);
+			name = streamingIPCameraUITests;
+			productName = streamingIPCameraUITests;
+			productReference = 62D17EBE1E0EB98F006C10AB /* streamingIPCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62D17E971E0EB98F006C10AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mattia Cantalù";
+				TargetAttributes = {
+					62D17E9E1E0EB98F006C10AB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					62D17EB21E0EB98F006C10AB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62D17E9E1E0EB98F006C10AB;
+					};
+					62D17EBD1E0EB98F006C10AB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62D17E9E1E0EB98F006C10AB;
+					};
+				};
+			};
+			buildConfigurationList = 62D17E9A1E0EB98F006C10AB /* Build configuration list for PBXProject "streamingIPCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62D17E961E0EB98F006C10AB;
+			productRefGroup = 62D17EA01E0EB98F006C10AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62D17E9E1E0EB98F006C10AB /* streamingIPCamera */,
+				62D17EB21E0EB98F006C10AB /* streamingIPCameraTests */,
+				62D17EBD1E0EB98F006C10AB /* streamingIPCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62D17E9D1E0EB98F006C10AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D17EAD1E0EB98F006C10AB /* LaunchScreen.storyboard in Resources */,
+				62D17EAA1E0EB98F006C10AB /* Assets.xcassets in Resources */,
+				62D17EA81E0EB98F006C10AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D17EB11E0EB98F006C10AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D17EBC1E0EB98F006C10AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62D17E9B1E0EB98F006C10AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D17EA51E0EB98F006C10AB /* ViewController.swift in Sources */,
+				62D17EA31E0EB98F006C10AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D17EAF1E0EB98F006C10AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D17EB81E0EB98F006C10AB /* streamingIPCameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D17EBA1E0EB98F006C10AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D17EC31E0EB98F006C10AB /* streamingIPCameraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62D17EB51E0EB98F006C10AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62D17E9E1E0EB98F006C10AB /* streamingIPCamera */;
+			targetProxy = 62D17EB41E0EB98F006C10AB /* PBXContainerItemProxy */;
+		};
+		62D17EC01E0EB98F006C10AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62D17E9E1E0EB98F006C10AB /* streamingIPCamera */;
+			targetProxy = 62D17EBF1E0EB98F006C10AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62D17EA61E0EB98F006C10AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62D17EA71E0EB98F006C10AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62D17EAB1E0EB98F006C10AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62D17EAC1E0EB98F006C10AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62D17EC51E0EB98F006C10AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62D17EC61E0EB98F006C10AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62D17EC81E0EB98F006C10AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = streamingIPCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattiacantalu.streamingIPCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		62D17EC91E0EB98F006C10AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = streamingIPCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattiacantalu.streamingIPCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		62D17ECB1E0EB98F006C10AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = streamingIPCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattiacantalu.streamingIPCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/streamingIPCamera.app/streamingIPCamera";
+			};
+			name = Debug;
+		};
+		62D17ECC1E0EB98F006C10AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = streamingIPCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattiacantalu.streamingIPCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/streamingIPCamera.app/streamingIPCamera";
+			};
+			name = Release;
+		};
+		62D17ECE1E0EB98F006C10AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = streamingIPCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattiacantalu.streamingIPCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = streamingIPCamera;
+			};
+			name = Debug;
+		};
+		62D17ECF1E0EB98F006C10AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = streamingIPCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattiacantalu.streamingIPCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = streamingIPCamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62D17E9A1E0EB98F006C10AB /* Build configuration list for PBXProject "streamingIPCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D17EC51E0EB98F006C10AB /* Debug */,
+				62D17EC61E0EB98F006C10AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62D17EC71E0EB98F006C10AB /* Build configuration list for PBXNativeTarget "streamingIPCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D17EC81E0EB98F006C10AB /* Debug */,
+				62D17EC91E0EB98F006C10AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62D17ECA1E0EB98F006C10AB /* Build configuration list for PBXNativeTarget "streamingIPCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D17ECB1E0EB98F006C10AB /* Debug */,
+				62D17ECC1E0EB98F006C10AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62D17ECD1E0EB98F006C10AB /* Build configuration list for PBXNativeTarget "streamingIPCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D17ECE1E0EB98F006C10AB /* Debug */,
+				62D17ECF1E0EB98F006C10AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62D17E971E0EB98F006C10AB /* Project object */;
+}
